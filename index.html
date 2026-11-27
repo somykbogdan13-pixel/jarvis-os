@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARVIS OS — Офіційний сайт завантаження</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+        body { background: #090d16; color: #e6edf3; line-height: 1.6; }
+        header { background: #0d1117; border-bottom: 1px solid #1f2937; padding: 18px 8%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+        .logo { font-size: 1.4rem; font-weight: 800; color: #58a6ff; letter-spacing: 1px; }
+        .creator-badge { background: rgba(255, 215, 0, 0.12); color: #ffd700; border: 1px solid #ffd700; padding: 5px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; }
+        
+        .hero { text-align: center; padding: 80px 10% 60px; background: radial-gradient(circle at top, #162447 0%, #090d16 70%); }
+        .hero h1 { font-size: 3rem; margin-bottom: 15px; background: linear-gradient(90deg, #58a6ff, #7ee787); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero p { font-size: 1.15rem; color: #8b949e; max-width: 720px; margin: 0 auto 35px; }
+        
+        .download-box { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .btn-win { background: #238636; color: white; text-decoration: none; padding: 16px 32px; border-radius: 10px; font-size: 1.1rem; font-weight: bold; transition: 0.2s; box-shadow: 0 4px 20px rgba(35, 134, 54, 0.4); }
+        .btn-win:hover { background: #2ea043; transform: translateY(-2px); }
+        .btn-mob { background: #1f6feb; color: white; text-decoration: none; padding: 16px 32px; border-radius: 10px; font-size: 1.1rem; font-weight: bold; transition: 0.2s; cursor: pointer; border: none; }
+        .btn-mob:hover { background: #388bfd; transform: translateY(-2px); }
+
+        .section { padding: 60px 8%; }
+        .section h2 { text-align: center; font-size: 2rem; margin-bottom: 35px; color: #f0f6fc; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+        .card { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 24px; transition: 0.2s; }
+        .card:hover { border-color: #58a6ff; transform: translateY(-3px); }
+        .card h3 { color: #58a6ff; margin-bottom: 10px; }
+        .card p { color: #8b949e; font-size: 0.95rem; }
+
+        .price { font-size: 1.6rem; font-weight: bold; color: #7ee787; margin: 10px 0; }
+        footer { text-align: center; padding: 30px; border-top: 1px solid #1f2937; color: #8b949e; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">🛡️ JARVIS OS</div>
+    <div class="creator-badge">👑 Created by [ CREATOR ] • Україна</div>
+</header>
+
+<section class="hero">
+    <h1>Твій ШІ-Всесвіт, Ігри та Кіберзахист</h1>
+    <p>Команда інтелектів <b>JARVIS, F.R.I.D.A.Y. та V.I.S.I.O.N.</b>, створення власних ігор у Game Studio, валюта <b>Jarvix</b>, сімейна карта та багаторівневий захист твоїх даних.</p>
+    <div class="download-box">
+        <a href="https://github.com" class="btn-win">🖥️ Завантажити для Windows (.exe)</a>
+        <button onclick="alert('📱 Версія для Android (.apk / Google Play) готується до релізу! Слідкуйте за оновленнями від [ CREATOR ].')" class="btn-mob">📱 Завантажити для Android (.apk)</button>
+    </div>
+</section>
+
+<section class="section">
+    <h2>⚡ Головні модулі платформи</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>🤖 Інтелектуальне Тріо ШІ</h3>
+            <p>JARVIS керує ПК та голосом, F.R.I.D.A.Y. створює ігри та світи, а V.I.S.I.O.N. допомагає з навчанням та аналітикою.</p>
+        </div>
+        <div class="card">
+            <h3>🛡️ Багаторівнева Безпека</h3>
+            <p>Сучасне шифрування, перевірка файлів на безпеку, захист авторського права розробників та безпечне середовище для всіх вікових категорій.</p>
+        </div>
+        <div class="card">
+            <h3>🎮 Game Studio & Jarvix</h3>
+            <p>Створюй власні ігри для Steam і Roblox, заробляй монети Jarvix за досягнення та відкривай ранги від Бронзи до Діаманта.</p>
+        </div>
+        <div class="card">
+            <h3>🗺️ Сімейна карта & Батьки</h3>
+            <p>Взаємна локація друзів, збереження останньої геопозиції при розряді батареї та зручний кабінет батьківського контролю.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" style="background: #0d1117;">
+    <h2>🎟️ Тарифи та Паси</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Free</h3>
+            <div class="price">0 грн/міс</div>
+            <p>• Текстовий чат із ШІ<br>• 1 тестовий прототип гри<br>• До 6 вкладок одночасно</p>
+        </div>
+        <div class="card">
+            <h3>Voice & Plus</h3>
+            <div class="price">10 грн/міс</div>
+            <p>• Живий голос ШІ<br>• Розширена пам'ять<br>• До 10 вкладок одночасно</p>
+        </div>
+        <div class="card">
+            <h3>Game Studio Start</h3>
+            <div class="price">200 грн/міс</div>
+            <p>• Створення до 5 ігор<br>• AI-генератор коду й текстур<br>• До 15 вкладок одночасно</p>
+        </div>
+        <div class="card">
+            <h3>Game Studio Pro</h3>
+            <div class="price">300 грн/міс</div>
+            <p>• Створення до 10 ігор<br>• Експорт у Steam / Roblox<br>• До 25 вкладок одночасно</p>
+        </div>
+        <div class="card" style="border-color: #ffd700;">
+            <h3 style="color: #ffd700;">Game Studio Ultra</h3>
+            <div class="price">400 грн/міс</div>
+            <p>• Створення до 40 ігор<br>• Максимальна потужність ШІ<br>• Безліміт вкладок</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 JARVIS OS Ecosystem • Розроблено в Україні (Київська область) • Усі права захищено Security Core
+</footer>
+
+</body>
+</html>
